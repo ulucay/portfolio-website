@@ -1,0 +1,50 @@
+{
+    "projects":
+    [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "A program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": " ",
+            "github_link": "https://github.com/ulucay/random-quote-generator",
+            "image_urls": ["/static/images/randomquote1.jpg", "/static/images/randomquote2.jpg", "/static/images/randomquote3.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "List Pagination and Filtering",
+            "description": "I wrote a JavaScript to divide a long list into a series of \"pages\" and improve the user experience of a web page.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": " ",
+            "github_link": "https://github.com/ulucay/list-pagination-and-filtering",
+            "image_urls": ["/static/images/pagination1.jpg", "/static/images/pagination2.jpg", "/static/images/pagination3.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form",
+            "description": "I enhanced an  interactive registration form for a fictional conference called \"FullStack Conf.\" I used JQuery to add customized and conditional behavior and interactivity. I added user input validation and provided helpful error messages when the user enters invalid information into the form fields.",
+            "technologies": ["JQuery", "HTML", "CSS", "Regular Expressions"],
+            "live_link": " ",
+            "github_link": "https://github.com/ulucay/interactive-form",
+            "image_urls": ["/static/images/interactiveform1.jpg", "/static/images/interactiveform2.jpg", "/static/images/interactiveform3.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Phrase Hunter",
+            "description": "Phrase Hunter is a game where app selects a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard",
+            "technologies": ["JavaScript", "OOP", "HTML", "CSS"],
+            "live_link": " ",
+            "github_link": "https://github.com/ulucay/oop-game-show-app",
+            "image_urls": ["/static/images/phrasehunter1.jpg", "/static/images/phrasehunter2.jpg", "/static/images/phrasehunter3.jpg"]
+        },
+        {
+            "id": 5,
+            "project_name": "Company Directory",
+            "description": "Company Directory App uses the Random User Generator API to grab information for 12 random \"employees\", and use that data to build a prototype for an Awesome Startup employee directory." ,
+            "technologies": ["JavaScript", "API", "HTML", "CSS"],
+            "live_link": " ",
+            "github_link": "https://github.com/ulucay/company-directory",
+            "image_urls": ["/static/images/api1.jpg", "/static/images/api2.jpg", "/static/images/api3.jpg"]
+        }
+    ]
+}
