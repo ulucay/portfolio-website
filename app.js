@@ -1,11 +1,12 @@
 const express = require('express');
 const app = express();
+const path = require('path');
 const port = 3000;
 const { projects } = require('./data/data.json');
 
 
 app.set('view engine', 'pug');
-app.use('/static', express.static('public'));
+app.use('/static', express.static(path.join(__dirname, 'public')));
 
 //Index Route
 app.get('/', (req,res) => {
